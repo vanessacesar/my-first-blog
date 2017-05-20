@@ -12,13 +12,18 @@
 .change-list .hiddenfields { display:none; }
 
 .change-list .filtered table {
+<<<<<<< HEAD
     border-right: 1px solid #ddd;
+=======
+    border-right: none;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 .change-list .filtered {
     min-height: 400px;
 }
 
+<<<<<<< HEAD
 .change-list .filtered {
     background: white url(../img/changelist-bg.gif) top right repeat-y !important;
 }
@@ -26,6 +31,12 @@
 .change-list .filtered .results, .change-list .filtered .paginator, .filtered #toolbar, .filtered div.xfull {
     margin-right: 160px !important;
     width: auto !important;
+=======
+.change-list .filtered .results, .change-list .filtered .paginator,
+.filtered #toolbar, .filtered div.xfull {
+    margin-right: 280px;
+    width: auto;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 .change-list .filtered table tbody th {
@@ -37,11 +48,16 @@
 }
 
 #changelist .toplinks {
+<<<<<<< HEAD
     border-bottom: 1px solid #ccc !important;
+=======
+    border-bottom: 1px solid #ddd;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 #changelist .paginator {
     color: #666;
+<<<<<<< HEAD
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     background: white url(../img/nav-bg.gif) 0 180% repeat-x;
@@ -52,6 +68,13 @@
     border-right: 1px solid #ddd;
 }
 
+=======
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    overflow: hidden;
+}
+
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 /* CHANGELIST TABLES */
 
 #changelist table thead th {
@@ -65,6 +88,7 @@
     text-align: center;
 }
 
+<<<<<<< HEAD
 #changelist table tbody td, #changelist table tbody th {
     border-left: 1px solid #ddd;
 }
@@ -76,6 +100,10 @@
 
 #changelist table tbody td.action-checkbox {
     text-align:center;
+=======
+#changelist table tbody td.action-checkbox {
+    text-align: center;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 #changelist table tfoot {
@@ -85,23 +113,71 @@
 /* TOOLBAR */
 
 #changelist #toolbar {
+<<<<<<< HEAD
     padding: 3px;
     border-bottom: 1px solid #ddd;
     background: #e1e1e1 url(../img/nav-bg.gif) top left repeat-x;
+=======
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: #f8f8f8;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
     color: #666;
 }
 
 #changelist #toolbar form input {
+<<<<<<< HEAD
     font-size: 11px;
     padding: 1px 2px;
 }
 
 #changelist #toolbar form #searchbar {
     padding: 2px;
+=======
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px;
+    color: #333;
+}
+
+#changelist #toolbar form #searchbar {
+    height: 19px;
+    border: 1px solid #ccc;
+    padding: 2px 5px;
+    margin: 0;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+#changelist #toolbar form #searchbar:focus {
+    border-color: #999;
+}
+
+#changelist #toolbar form input[type="submit"] {
+    border: 1px solid #ccc;
+    padding: 2px 10px;
+    margin: 0;
+    vertical-align: middle;
+    background: #fff;
+    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    color: #333;
+}
+
+#changelist #toolbar form input[type="submit"]:focus,
+#changelist #toolbar form input[type="submit"]:hover {
+    border-color: #999;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 #changelist #changelist-search img {
     vertical-align: middle;
+<<<<<<< HEAD
+=======
+    margin-right: 4px;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 /* FILTER COLUMN */
@@ -111,13 +187,20 @@
     top: 0;
     right: 0;
     z-index: 1000;
+<<<<<<< HEAD
     width: 160px;
     border-left: 1px solid #ddd;
     background: #efefef;
+=======
+    width: 240px;
+    background: #f8f8f8;
+    border-left: none;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
     margin: 0;
 }
 
 #changelist-filter h2 {
+<<<<<<< HEAD
     font-size: 11px;
     padding: 2px 5px;
     border-bottom: 1px solid #ddd;
@@ -131,6 +214,32 @@
 #changelist-filter ul {
     padding-left: 0;
     margin-left: 10px;
+=======
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 5px 15px;
+    margin-bottom: 12px;
+    border-bottom: none;
+}
+
+#changelist-filter h3 {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+#changelist-filter ul {
+    margin: 5px 0;
+    padding: 0 15px 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#changelist-filter ul:last-child {
+    border-bottom: none;
+    padding-bottom: none;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 #changelist-filter li {
@@ -140,6 +249,7 @@
 }
 
 #changelist-filter a {
+<<<<<<< HEAD
     color: #999;
 }
 
@@ -155,17 +265,45 @@
 
 #changelist-filter li.selected a {
     color: #5b80b2 !important;
+=======
+    display: block;
+    color: #999;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+#changelist-filter li.selected {
+    border-left: 5px solid #eaeaea;
+    padding-left: 10px;
+    margin-left: -15px;
+}
+
+#changelist-filter li.selected a {
+    color: #5b80b2;
+}
+
+#changelist-filter a:focus, #changelist-filter a:hover,
+#changelist-filter li.selected a:focus,
+#changelist-filter li.selected a:hover {
+    color: #036;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 /* DATE DRILLDOWN */
 
 .change-list ul.toplinks {
     display: block;
+<<<<<<< HEAD
     background: white url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
     border-top: 1px solid white;
     float: left;
     padding: 0 !important;
     margin: 0 !important;
+=======
+    float: left;
+    padding: 0;
+    margin: 0;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
     width: 100%;
 }
 
@@ -180,6 +318,10 @@
     color: #999;
 }
 
+<<<<<<< HEAD
+=======
+.change-list ul.toplinks .date-back a:focus,
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 .change-list ul.toplinks .date-back a:hover {
     color: #036;
 }
@@ -187,7 +329,11 @@
 /* PAGINATOR */
 
 .paginator {
+<<<<<<< HEAD
     font-size: 11px;
+=======
+    font-size: 13px;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 22px;
@@ -197,6 +343,7 @@
 
 .paginator a:link, .paginator a:visited {
     padding: 2px 6px;
+<<<<<<< HEAD
     border: solid 1px #ccc;
     background: white;
     text-decoration: none;
@@ -214,6 +361,26 @@
 
 .paginator .end {
     border-width: 2px !important;
+=======
+    background: #79aec8;
+    text-decoration: none;
+    color: #fff;
+}
+
+.paginator a.showall {
+    padding: 0;
+    border: none;
+    background: none;
+    color: #5b80b2;
+}
+
+.paginator a.showall:focus, .paginator a.showall:hover {
+    background: none;
+    color: #036;
+}
+
+.paginator .end {
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
     margin-right: 6px;
 }
 
@@ -224,21 +391,36 @@
     vertical-align: top;
 }
 
+<<<<<<< HEAD
 .paginator a:hover {
     color: white;
     background: #5b80b2;
     border-color: #036;
+=======
+.paginator a:focus, .paginator a:hover {
+    color: white;
+    background: #036;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 /* ACTIONS */
 
 .filtered .actions {
+<<<<<<< HEAD
     margin-right: 160px !important;
     border-right: 1px solid #ddd;
+=======
+    margin-right: 280px;
+    border-right: none;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 #changelist table input {
     margin: 0;
+<<<<<<< HEAD
+=======
+    vertical-align: baseline;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 #changelist table tbody tr.selected {
@@ -246,11 +428,20 @@
 }
 
 #changelist .actions {
+<<<<<<< HEAD
     color: #999;
     padding: 3px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #ddd;
     background: white url(../img/nav-bg-reverse.gif) 0 -10px repeat-x;
+=======
+    padding: 10px;
+    background: #fff;
+    border-top: none;
+    border-bottom: none;
+    line-height: 24px;
+    color: #999;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }
 
 #changelist .actions.selected {
@@ -263,7 +454,11 @@
 #changelist .actions span.action-counter,
 #changelist .actions span.clear,
 #changelist .actions span.question {
+<<<<<<< HEAD
     font-size: 11px;
+=======
+    font-size: 13px;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
     margin: 0 0.5em;
     display: none;
 }
@@ -273,6 +468,7 @@
 }
 
 #changelist .actions select {
+<<<<<<< HEAD
     border: 1px solid #aaa;
     margin-left: 0.5em;
     padding: 1px 2px;
@@ -290,4 +486,44 @@
 #changelist .actions .button {
     font-size: 11px;
     padding: 1px 2px;
+=======
+    vertical-align: top;
+    height: 24px;
+    background: none;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0 0 0 4px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+#changelist .actions select:focus {
+    border-color: #999;
+}
+
+#changelist .actions label {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+}
+
+#changelist .actions .button {
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    height: 24px;
+    line-height: 1;
+    padding: 4px 8px;
+    margin: 0;
+    color: #333;
+}
+
+#changelist .actions .button:focus, #changelist .actions .button:hover {
+    border-color: #999;
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
 }

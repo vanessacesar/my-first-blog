@@ -21,9 +21,12 @@
 
 ul.actionlist li {
     list-style-type: none;
+<<<<<<< HEAD
 }
 
 ul.actionlist li {
+=======
+>>>>>>> cf71fd562359847a78e93f945f9285ac075ea60e
     overflow: hidden;
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
